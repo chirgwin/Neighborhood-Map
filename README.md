@@ -16,10 +16,10 @@ A single-page application featuring a map of your neighborhood made using **Goog
 An application written in javascript and HTML using google map api. 
 The neighborhood map application has many functionalities:
 
-- The home of the applicaton displays two buttons to show and hide markers on the map.
-- Then, a button drawing tools which will draw shapes around the which you want to visit.
-- Application also searches all the nearby places, you want too visit in a particular area.
-- Display map markers identifying at least 5 locations that you are interested in within this neighborhood. This application displays     those locations when the user click on show-listings function.
+- The home page of the applicaton displays two buttons to show and hide markers on the map.
+- Then, a button drawing tools which will draw shapes around the region which you want to visit.
+- Application also searches all the nearby places, you want to visit in a particular area.
+- Display map markers identifying at least 5 locations that you are interested in within this neighborhood. This application displays     those locations when the user click on Show Listings button.
 - A list view of the set of locations is implemented. This list of locations is displayed by default when the page is loaded and when     user click on any option on the list that location is dsiplayed on the map.
 - This app also shows a street view image of the location user want to select.
 - In the application, map is also styled using various map stylers.
@@ -37,7 +37,7 @@ Framework Used: Knockout
 # Usage
 
 - Download the project.
-- Open index.html file in the browser to view the application
+- Open index.html file in the browser to view the application.
 - Click on the Show Listings button to view the markers of all the locations mentioned in the locations list and to hid the markers       click on Hide Listings button.
 - To draw a particular area to visit, click on Draw tools button.
 - By clicking on the marker, a street view of location will appear.
