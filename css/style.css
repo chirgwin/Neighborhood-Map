@@ -94,21 +94,3 @@ hr
     color: #f1c40f ;
 }
     
-/* screen size until 1000px */
-
-@media all and (max-width: 1000px) { 
-* {
-     font-size: 1.05em;
-  }
-}
-
-/* screen size until 500px */
-
-@media all and (max-width: 500px) { 
-* {
-     font-size: 1em;
-     background-color: lightblue;
-  }
-}
-
-
