@@ -534,11 +534,11 @@ var ViewModel = function() {
 
     };
 
-    this.selectedLocation = function(LocClicked) {
+    this.select = function(LocationClicked) {
 
         for(var i = 0; i < self.placesList().length; i++) {
             var title = self.placesList()[i].title;
-            if(LocClicked.title == title) {
+            if(LocationClicked.title == title) {
                 this.currLocation = self.placesList()[i];
             }
 
@@ -556,18 +556,18 @@ var ViewModel = function() {
         }
     };
 
-    // addition of filters
-    this.searchedLocation = ko.observable('');
+    // addition of filters for searching the particular location.
+    this.searchLoc = ko.observable('');
 
-    this.filter = function(value) {
+    this.selector = function(v) {
 
         self.placesList.removeAll();
         locations.forEach(function(val) {
-            var searchQuery = val.title.toLowerCase();
+            var find = val.title.toLowerCase();
 
             // find match for the starting alphabet for every location 
 
-            if(searchQuery.indexOf(value.toLowerCase()) >= 0) {
+            if(find.indexOf(v.toLowerCase()) >= 0) {
                 self.placesList.push(val);
             }
 
@@ -575,7 +575,7 @@ var ViewModel = function() {
 
     };
 
-    this.searchedLocation.subscribe(this.filter);
+    this.searchLoc.subscribe(this.selector);
 };
 
 mapError = function() {
