@@ -13,9 +13,9 @@ var locations = [
 
 var ViewModel = function() {
 
-	// pointer to outer this
+    // pointer to outer this
 
-	var self = this;
+    var self = this;
     this.placesList = ko.observableArray([]);
 
     var markers = [];
@@ -28,7 +28,7 @@ var ViewModel = function() {
               self.placesList.push(loc);
     });
 
-    // set the default current location
+    // set the default current location to start of the array.
 
     this.currLocation = ko.observable(this.placesList()[0]);
 
@@ -322,7 +322,7 @@ var ViewModel = function() {
 
         }
 
-        // This function will loop through the markers array and display them all.
+        // This function will loop through the markers array and will display them all.
         function showListings() {
             // Extend the boundaries of the map for each marker and display the marker
             for (var i = 0; i < markers.length; i++) {
@@ -332,7 +332,7 @@ var ViewModel = function() {
             }
             map.fitBounds(bounds);
         }
-       
+        showListings();
         for(var i = 0; i < locations.length; i++) {
             this.placesList()[i].marker = markers[i];
         }
@@ -582,11 +582,11 @@ mapError = function() {
 
     // Error handling
 
-    alert("This page cannot be loaded at this time.")
+    alert("This page cannot be loaded.")
 };
 
 var VAR = new ViewModel();
 
-// we'll need to tell knockout to apply our bindings to this viewModel
+// we need to tell knockout to apply our bindings to this viewModel.
 
 ko.applyBindings(VAR);
