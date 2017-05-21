@@ -30,7 +30,7 @@ The neighborhood map application has many functionalities:
 
 Application utilizes Google Map API and at least one additional third-party API. All data requests are retrieved and maintained in an asynchronous manner. If searching od data is failed, errors are also handled.
 
-Third Party API Used:  StreetView images
+Third Party API Used:  Wikipedia's API
 
 Framework Used: Knockout
 
@@ -51,3 +51,4 @@ Framework Used: Knockout
 - [Google Maps Developer Docmentation](https://developers.google.com/maps/documentation/javascript/tutorial)
 - [KnockoutJS Tutorials](http://knockoutjs.com/)
 - [Google Maps Street View Service](https://developers.google.com/maps/documentation/javascript/streetview)
+- [MediaWikiAPI for Wikipedia](https://www.mediawiki.org/wiki/API:Main_page)
