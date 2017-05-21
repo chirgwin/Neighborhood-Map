@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shimla</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+	<meta charset="UTF-8">
+
+</head>
+
+<body>
+
+    <div class = "container">
+
+	    <div class = "options-box">
+
+            <h2 class="h2 text-center title">Neighborhood Map <small>(Shimla Sparks)</small></h2>
+
+	        <hr>
+
+	            <div>
+
+                     <input id="show-listings" type="button" value="Show Listings">
+                     <input id="hide-listings" type="button" value="Hide Listings">
+                     <hr>
+                     <span class="text"> Draw a shape to search for places!</span>
+                     <input id="toggle-drawing"  type="button" value="Drawing Tools">
+
+                </div>
+
+            <hr>
+
+                <div>
+
+                    <span class="text">Search for nearby places</span>
+                    <input id="places-search" type="text" placeholder="Ex: Domino's Pizza">
+                    <input id="go-places" type="button" value="Go">
+
+                </div>
+
+            <hr>
+
+	             <form class="form-inline">
+		         <div class="input-group">
+	    	     <div class="input-group-addon search">Search</div>
+	    	     <input id="msg" type="text" class="form-control input-lg search" name="msg" placeholder=" Enter any place to search..." data-bind="textInput: searchLoc">
+	             </div>
+	             </form>
+	
+	             <div>
+
+		             <section>
+			             <div>
+				             <ul class = "list-group" data-bind="foreach: placesList">
+					             <li class="list-group-item" data-bind="text: title, click: $parent.select"></li>
+				             </ul>
+			             </div>
+		             </section>
+		        
+	             </div>
+	       
+	        </div>
+
+           <div id = "map"></div>
+
+	    </div>
+    
+	     <script src="js/lib/jquery-3.1.1.min.js"></script>
+         <script src="js/lib/knockout-3.2.0.js"></script>
+	     <script src="js/app.js"></script>
+	     <script async defer 
+            src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry,drawing&key=AIzaSyDexlrNNc1orFLpwTWG_jl8BGSGcK7S7ig&v=3&callback=VAR.initMap"
+            onerror="mapError()">
+         </script>
+
+</body>
+
+</html>
