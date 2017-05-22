@@ -25,28 +25,28 @@
 
     <hr>
     <form class="form-inline">
-		<div class="input-group">
-	    	<div class="input-group-addon search">Search</div>
-	    	<input id="demo" type="text"  name="demo" class="form-control input-lg search" placeholder=" Enter any place to search..." data-bind="textInput: searchLoc">
-	    </div>
-	</form>
+          <div class="input-group">
+	     <div class="input-group-addon search">Search</div>
+	     <input id="demo" type="text"  name="demo" class="form-control input-lg search" placeholder=" Enter any place to search..." data-bind="textInput: searchLoc">
+	  </div>
+    </form>
 	
-	<div>
-		<section>
-			<div>
-				<ul class = "list-group" data-bind="foreach: placesList">
-					<li class="list-group-item" data-bind="text: title, click: $parent.select"></li>
-				</ul>
-			</div>
-		</section>
-		<div id = "map"></div>
-	</div>
+    <div>
+	<section>
+	    <div>
+	        <ul class = "list-group" data-bind="foreach: placesList">
+		  <li class="list-group-item" data-bind="text: title, click: $parent.select"></li>
+	        </ul>
+	    </div>
+	</section>
+	<div id = "map"></div>
+     </div>
 
     
-	<script src="js/lib/jquery-3.1.1.min.js"></script>
+    <script src="js/lib/jquery-3.1.1.min.js"></script>
     <script src="js/lib/knockout-3.2.0.js"></script>
-	<script src="js/app.js"></script>
-	<script async defer 
+    <script src="js/app.js"></script>
+    <script async defer 
     src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry,drawing&key=AIzaSyDexlrNNc1orFLpwTWG_jl8BGSGcK7S7ig&v=3&callback=VAR.initMap"
     onerror="mapError()">
     </script>
