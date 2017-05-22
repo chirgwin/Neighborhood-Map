@@ -1,0 +1,88 @@
+html,
+body 
+{
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+input 
+{
+    font-size: 12px;
+}
+
+h1
+{
+	color: #5499c7;
+    color: #525454;
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    text-align: center;
+    width: 30%;
+}
+
+hr 
+{
+    background: #D0D7D9;
+    height: 1px;
+    margin: 20px 0 20px 0;
+    border: none;
+}
+
+      
+#map
+{
+    width: 70%;
+    right: 0px;
+    bottom:0px;
+    height: 100%;
+    position: absolute;
+}
+
+
+#pano 
+{
+    width: 200px;
+    height: 200px;
+}
+
+#places-search
+{
+    width: 15%;
+}
+
+#go-places 
+{
+	width: 3%;
+	color: #e91e63;
+}
+
+.text
+{
+    font-size: 15px;
+}
+
+#heading
+{
+    font-style: bold;
+    color: #A93226;
+}
+    
+#wiki-links
+{
+    color: #3498DB;
+    width: 200px;
+    padding: 5px;
+}
+
+#no_view
+{
+    color: #717D7E;
+}
+
+ul {
+    position: relative;
+    padding: 0;
+    padding-right: 5%;
+}
