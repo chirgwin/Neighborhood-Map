@@ -2,7 +2,7 @@
 
 A single-page application featuring a map of your neighborhood made using **Google Map API**.
 
-![image](https://github.com/AnanyaSharma22/Neighborhood-Map/blob/master/pictures/map_1.PNG)
+![image](https://github.com/AnanyaSharma22/Neighborhood-Map/blob/master/pictures/map_7.PNG)
 
 # Table of Contents
 
@@ -17,13 +17,11 @@ An application written in javascript and HTML using google map api.
 The neighborhood map application has many functionalities:
 
 - When the page is load, the list of places appear and list of locations(markers) on the map appear.
-- Application also searches all the nearby places, you want to visit in a particular area.
 - Display map markers identifying at least 5 locations that you are interested in within this neighborhood. This application displays     those locations when the page is load.
 - A list view of the set of locations is implemented. This list of locations is displayed by default when the page is loaded and when     user click on any option on the list that location is dsiplayed on the map.
 - This app also shows a street view image and wikipedia information of the location user want to select.
 - In the application, map is also styled using various map stylers.
 
-![image1](https://github.com/AnanyaSharma22/Neighborhood-Map/blob/master/pictures/map_5.PNG)
 
 # Documentation
 
@@ -42,7 +40,7 @@ Framework Used: Knockout
 - User can search the particular location, user wants to visit.
 - By clicking on any location on the list, streetview for that particular location will be displayed.
 
-![image2](https://github.com/AnanyaSharma22/Neighborhood-Map/blob/master/pictures/map_6.PNG)
+![image2](https://github.com/AnanyaSharma22/Neighborhood-Map/blob/master/pictures/map_8.PNG)
 
 # Helpul Resources
 
