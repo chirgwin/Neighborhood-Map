@@ -2,7 +2,7 @@
 
 A single-page application featuring a map of your neighborhood made using **Google Map API**.
 
-![image](https://github.com/AnanyaSharma22/Neighborhood-Map/blob/master/pictures/map.PNG)
+![image](https://github.com/AnanyaSharma22/Neighborhood-Map/blob/master/pictures/map_1.PNG)
 
 # Table of Contents
 
@@ -23,7 +23,7 @@ The neighborhood map application has many functionalities:
 - This app also shows a street view image and wikipedia information of the location user want to select.
 - In the application, map is also styled using various map stylers.
 
-![image1](https://github.com/AnanyaSharma22/Neighborhood-Map/blob/master/pictures/map_1.PNG)
+![image1](https://github.com/AnanyaSharma22/Neighborhood-Map/blob/master/pictures/map_5.PNG)
 
 # Documentation
 
@@ -42,7 +42,7 @@ Framework Used: Knockout
 - User can search the particular location, user wants to visit.
 - By clicking on any location on the list, streetview for that particular location will be displayed.
 
-![image2](https://github.com/AnanyaSharma22/Neighborhood-Map/blob/master/pictures/map_3.PNG)
+![image2](https://github.com/AnanyaSharma22/Neighborhood-Map/blob/master/pictures/map_6.PNG)
 
 # Helpul Resources
 
