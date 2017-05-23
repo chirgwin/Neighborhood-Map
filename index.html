@@ -26,21 +26,20 @@
        <div class = "col-md-8 delta">
          <form class="form-horizontal">
            <div class="input-group" id = "search">
-	           <span class="input-group-addon search">Search</span>
-	             <input id="demo" type="text"  name="demo" class="form-control input-lg search" placeholder=" Enter any place to search..." data-bind="textInput: searchLoc">
-	         </div>
+	       <span class="input-group-addon search">Search</span>
+	       <input id="demo" type="text"  name="demo" class="form-control input-lg search" placeholder=" Enter any place to search..." data-bind="textInput: searchLoc">
+	    </div>
          </form>
 	
-  
-	      <div class = "desc">
-	        <ul data-bind="foreach: placesList">
-            <h6>
-		           <li class="list-group-item" data-bind="text: title, click: $parent.select"></li>
-            </h6>
-	        </ul>
-	      </div>
-	      </div>
-	     <div class = "col-md-8 map" id = "map"></div>
+         <div class = "desc">
+	    <ul data-bind="foreach: placesList">
+              <h6>
+		 <li class="list-group-item" data-bind="text: title, click: $parent.select"></li>
+              </h6>
+	    </ul>
+	 </div>
+       </div>
+	 <div class = "col-md-8 map" id = "map"></div>
     </div>
   </div>
 
