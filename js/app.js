@@ -296,10 +296,6 @@ var ViewModel = function() {
                 var wikiUrl = 'https://en.wikipedia.org/w/api.php?action=opensearch&search=' +
                         marker.title +
                         '&format=json&callback=wikiCallback';
-
-                var wikiTimeout = setTimeout(function(){
-                           wiki.text("failed to get wikipedia resources!");
-                }, 8000);
                         
                 $.ajax({
                     url:wikiUrl,
@@ -341,7 +337,6 @@ var ViewModel = function() {
                                 wiki +
                                 '</div><div id="pano"></div>'
                             );
-                            clearTimeout(wikiTimeout);
                             var panorama = new google.maps.StreetViewPanorama(
                                 document.getElementById('pano'), panoramaOptions
                             ); 
