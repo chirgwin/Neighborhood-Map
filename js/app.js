@@ -342,7 +342,7 @@ var ViewModel = function() {
                             ); 
                         }
                     }
-                }).error(function(jqXHR, textStatus) 
+                }).fail(function(jqXHR, textStatus) 
                 {
                      if (jqXHR.status == 0) 
                      {
