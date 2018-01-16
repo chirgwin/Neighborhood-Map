@@ -8,17 +8,17 @@
 	<title>Shimla</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<meta charset="UTF-8">
 
 </head>
 
 <body>
-  
+
   <div class = "container-fluid">
     <div class = "row" class = "start" >
       <header class = "col-md-12 head">
-         <h1 class="h1 text-center title">Neighborhood Map <small>(Shimla Sparks)</small></h1>
+         <h1 class="h1 text-center title">Bay Area Strips</h1>
       </header>
     </div>
 
@@ -30,7 +30,7 @@
 	       <input id="demo" type="text"  name="demo" class="form-control input-lg search" placeholder=" Enter any place to search..." data-bind="textInput: searchLoc">
 	    </div>
          </form>
-	
+
          <div class = "desc">
 	    <ul data-bind="foreach: placesList">
               <h6>
@@ -43,11 +43,11 @@
     </div>
   </div>
 
-    
+
     <script src="js/lib/jquery-3.1.1.min.js"></script>
     <script src="js/lib/knockout-3.2.0.js"></script>
     <script src="js/app.js"></script>
-    <script async defer 
+    <script async defer
     src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry,drawing&key=AIzaSyDexlrNNc1orFLpwTWG_jl8BGSGcK7S7ig&v=3&callback=VAR.initMap"
     onerror="mapError()">
     </script>

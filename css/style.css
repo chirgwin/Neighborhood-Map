@@ -1,5 +1,5 @@
 html,
-body 
+body
 {
     font-family: Arial, sans-serif;
     height: 100%;
@@ -7,7 +7,7 @@ body
     padding: 0;
 }
 
-input 
+input
 {
     font-size: 12px;
 }
@@ -19,7 +19,7 @@ h1
     text-align: center;
 }
 
-      
+
 #map
 {
     height: 500px;
@@ -27,7 +27,7 @@ h1
 }
 
 
-#pano 
+#pano
 {
     width: 200px;
     height: 200px;
@@ -38,7 +38,7 @@ h1
     font-style: bold;
     color: #A93226;
 }
-    
+
 #wiki-links
 {
     color: #3498DB;
@@ -74,6 +74,6 @@ h1
 
 .head
 {
-    color: #800000;
-    background-color: #BDC3C7 ;  
+    color: black;
+    background-color: white ;
 }
